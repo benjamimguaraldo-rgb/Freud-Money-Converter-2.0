@@ -1,0 +1,50 @@
+body {
+    background-color: #6c87ff;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 100vh;
+    text-align: center;
+}
+
+.titulo {
+    font: bold;
+    font-size: 50px;
+}
+
+.titulo:hover {
+    color: black;
+}
+
+.divprincipal {
+    background-color: #787878;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+.converterbutton {
+    background-color: #6200ff;
+    color: rgb(255, 255, 255);
+    border-radius: 17px;
+    transition: 0.5s;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 3);
+    border: none;
+}
+
+.converterbutton:hover {
+    background-color: #260063;
+    transform: scale(1.08);
+}
+
+.converterbutton:active {
+    background-color: #6200ff;
+    transform: scale(0.97);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 3);
+}
+
+.sec {
+    border-radius: 16px;
+    appearance: none;
+    padding: 10px;
+}
